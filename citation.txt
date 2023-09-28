@@ -1,0 +1,11 @@
+Plain Text:
+Y. Wu and C. Han, "TeraISAC: A Physical-Layer Simulator for Terahertz Integrated Sensing and Communication," Terahertz Wireless Communications (TWC) Laboratory, Shanghai Jiao Tong University, 2023. [Online]. Available: https://github.com/TWCLabSJTU/TeraISAC
+
+BibTeX
+@misc{TeraISAC,
+  title  = {{TeraISAC: A Physical-Layer Simulator for Terahertz Integrated Sensing and Communication}},
+  author = {Wu, Yongzhi and Han, Chong},
+  organization = {{Terahertz Wireless Communications (TWC) Laboratory, Shanghai Jiao Tong University}},
+  year   = {2023},
+  url    = {https://github.com/TWCLabSJTU/TeraISAC},
+}
