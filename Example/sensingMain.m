@@ -18,6 +18,7 @@ targetVelocity = [-20, 20, 2];
 targetRCS = [0, 0, 0];
 sensingChannelParam = getSensingChannelParam(fc, bandwidth, txBeamformingGain,...
     rxBeamformingGain, targetDistance, targetVelocity, targetRCS);
+waveformParam.carrierFrequency = sensingChannelParam.carrierFrequency;
 SNRdB = max(sensingChannelParam.targetSNRdB);
 
 waveformType = waveformParam.waveformType;

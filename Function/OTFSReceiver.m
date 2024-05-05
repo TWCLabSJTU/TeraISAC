@@ -7,7 +7,7 @@ T = waveformPar.symbolDuration;
 % SNR = 10.^(SNRdB / 10);
 % sigma_2 = 1 ./ SNR;
 c0 = physconst('LightSpeed');
-fc = 300e9;
+fc = waveformPar.carrierFrequency;
 
 % sigma_p = waveformPar.sigma_p;
 % sigma_d = 1 - sigma_p;
